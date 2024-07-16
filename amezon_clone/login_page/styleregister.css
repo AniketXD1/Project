@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    height: 60px;
+    width: 100px;
+    background-image: url("/amazon_logo.png");
+    background-size: cover;
+}
+.main {
+    margin-top: 20px;
+    position: absolute;
+    left: 430px;
+   /* background-color: blue;*/
+    width: 600px;
+    height: 700px; 
+}
+.main:hover{
+    border: 2px solid transparent;
+}
+.register p {
+    font-size: 28px ;
+    color: #111111;
+    margin-bottom: 20px;
+}
+.register {
+    position: relative;
+    left: 19%;
+    height: 550px;
+    width: 350px;
+    border: 2px solid black;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.box-con {
+    font-size: 18px;
+    color: #111111;
+}
+input {
+    margin-top: 5px;
+    width: 95%;
+    height: 22px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+button {
+    margin-top: 5px;
+    width: 95%;
+    height: 22px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(245, 215, 23, 0.948);
+}
